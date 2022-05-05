@@ -1,0 +1,42 @@
+<h1 mat-dialog-title>Nouveau Patient Arrivé</h1>
+<div mat-dialog-content>
+    <from [formGroup]="patientForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Nom</mat-label>
+            <input formControlName="nom" matInput placeholder="Nom Patient">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Prénom</mat-label>
+            <input formControlName="prenom" matInput placeholder="Prénom Patient">
+        </mat-form-field>
+        <mat-form-field appearance="outline"> 
+            <mat-label>Sexe</mat-label>
+            <mat-select formControlName="sexe" placeholder="Sexe">
+              <mat-option  value="Masculin">Masculin</mat-option>
+              <mat-option  value="Feminin">Feminin</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Date de NAissance</mat-label>
+            <input formControlName="dateNaiss" matInput [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+          <mat-form-field appearance="outline">
+            <mat-label>Age</mat-label>
+            <input formControlName="age" matInput type="number" placeholder="Age Patient">
+        </mat-form-field>
+          
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Telephone</mat-label>
+              <span matPrefix>+1 &nbsp;</span>
+              <input formControlName="mobile" type="tel" matInput placeholder="555-555-1234">
+              <mat-icon matSuffix>mode_edit</mat-icon>
+            </mat-form-field>
+    </from>
+</div>
+<div mat-dialog-action [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Fermer</button>
+    <button style="margin-left: 8px;" mat-raised-button color="primary" (click)="saveAttentPatient()">{{actionBtn}}</button>
+</div>

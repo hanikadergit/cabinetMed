@@ -1,0 +1,90 @@
+{
+  "salleAttente": [
+    {
+      "nom": "bouhani",
+      "prenom": "Samira",
+      "sexe": "M",
+      "dateNaiss": "04/06/1967",
+      "age": 54,
+      "mobile": 0,
+      "servi": false,
+      "id": 1
+    },
+    {
+      "id": 3,
+      "nom": "bouhani",
+      "prenom": "Samir",
+      "sexe": "M",
+      "dateNaiss": "04/06/1967",
+      "age": 54,
+      "mobile": "0662500293",
+      "tour": 3,
+      "servi": true
+    },
+    {
+      "id": 4,
+      "nom": "bouhani",
+      "prenom": "Samir",
+      "sexe": "M",
+      "dateNaiss": "04/06/1967",
+      "age": 54,
+      "mobile": "0662500293",
+      "tour": 4,
+      "servi": false
+    },
+    {
+      "id": 51,
+      "nom": "Khaled",
+      "prenom": "youcef",
+      "sexe": "M",
+      "dateNaiss": "04/06/2000",
+      "age": 54,
+      "mobile": "9999999",
+      "datePresence": "04/01/2022",
+      "tour": 5,
+      "servi": false
+    },
+    {
+      "id": 7,
+      "nom": "Samir",
+      "prenom": "nabila",
+      "sexe": "F",
+      "dateNaiss": "04/06/1967",
+      "age": 54,
+      "mobile": "0662500293",
+      "tour": 7,
+      "servi": false
+    },
+    {
+      "id": 8,
+      "nom": "Samir",
+      "prenom": "nabila",
+      "sexe": "F",
+      "dateNaiss": "04/06/1967",
+      "age": 54,
+      "mobile": "0662500293",
+      "tour": 8,
+      "servi": false
+    },
+    {
+      "id": 9,
+      "nom": "samir",
+      "prenom": "ahmed",
+      "sexe": "F",
+      "dateNaiss": "04/06/1967",
+      "age": 34,
+      "mobile": "0662500293",
+      "tour": "9"
+    },
+    {
+      "nom": "bouhani",
+      "prenom": "abdelkader",
+      "sexe": "Masculin",
+      "dateNaiss": "2022-05-24T23:00:00.000Z",
+      "age": 2,
+      "mobile": "222333",
+      "servi": false,
+      "id": 52
+    }
+  ]
+}
